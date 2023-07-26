@@ -8,6 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { Roadmap, Projects, SocialLinks } from "./data";
 import { AnimatePresence, motion } from "framer-motion";
 
+
 function App() {
 
 const [isActive, setIsActive] = useState(false)
@@ -135,13 +136,16 @@ return (
           </p>
 
 
-          <motion.button 
-          whileTap={{scale: 0.8}}   
-          class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-400 to-gray-600 group-hover:from-gray-400 group-hover:to-white-600 hover:text-white dark:text-white focus:ring-4 focus:ring-gray-200 dark:focus:ring-grey-800 hover:shadow-lg hover:shadow-stone-500/50 hover:dark:shadow-lg hover:dark:shadow-black-800/80">
-                <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Get my resume here
-                </span>
-              </motion.button>
+          <motion.a
+  href="https://docs.google.com/file/d/1rMM50Pg9BIQBQ8OCuN4rXV8-W9imDiGh/edit?usp=docslist_api&filetype=msword" 
+  whileTap={{ scale: 0.8 }}
+  class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-400 to-gray-600 group-hover:from-gray-400 group-hover:to-white-600 hover:text-white dark:text-white focus:ring-4 focus:ring-gray-200 dark:focus:ring-grey-800 hover:shadow-lg hover:shadow-stone-500/50 hover:dark:shadow-lg hover:dark:shadow-black-800/80"
+>
+  <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+    Get my resume here
+  </span>
+</motion.a>
+
         </div>
 
       </section>
@@ -214,11 +218,15 @@ return (
          {
           SocialLinks && SocialLinks.map(n => (
             <motion.a
-            whileTap={{scale: 0.8}}
-             key={n.id}
-            href="#" 
-            className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2x1 hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3">
-           {n.iconSrc}
+            whileTap={{ scale: 0.8 }}
+            key={n.id}
+            onClick={(e) => {
+              e.preventDefault(); // Prevent default anchor behavior
+              window.open(n.link, "_blank"); // Open the link using window.open() on click
+            }}
+            className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2x1 hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
+          >
+            {n.iconSrc}
             <p className="text-lg text-textBase">{n.name}</p>
           </motion.a>
           ))
