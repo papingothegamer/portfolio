@@ -5,7 +5,7 @@ import { IoMenu, IoLogoGithub } from 'react-icons/io5'
 import profile from './img/profile.JPG'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Experience, Projects, SocialLinks } from "./data";
+import { Roadmap, Projects, SocialLinks } from "./data";
 import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
@@ -150,8 +150,8 @@ return (
       <section className="w-full flex items-center justify-center">
         <VerticalTimeline>
        {
-        Experience && 
-        Experience.map(n => (
+        Roadmap && 
+        Roadmap.map(n => (
           <VerticalTimelineElement
             key={n.id}
             className="vertical-timeline-element--work"

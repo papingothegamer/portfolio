@@ -9,7 +9,7 @@ import {
   
   
   
-  export const Experience = [
+  export const Roadmap = [
     {
       id: 1,
       date: "April 2023 - present",
@@ -46,7 +46,7 @@ import {
     name: "eCommerce App ",
     imageSrc: img1,
     techs: "React JS, Material UI, Redux",
-    github: "#",
+    github: "https://github.com/papingothegamer/e-commercev1",
   },
 
   ];
@@ -56,7 +56,7 @@ import {
       id: 1,
       iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
       name: "GitHub",
-      link: "#",
+      link: "https://github.com/papingothegamer",
     },
     {
       id: 1,
@@ -64,7 +64,7 @@ import {
         <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />
       ),
       name: "Twitter",
-      link: "#",
+      link: "https://twitter.com/papingothegamer",
     },
     {
       id: 1,
@@ -72,7 +72,7 @@ import {
         <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
       ),
       name: "LinkedIn",
-      link: "#",
+      link: "https://linkedin.com/in/toluwanimidaramola",
     },
     {
       id: 1,
