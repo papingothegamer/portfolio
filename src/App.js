@@ -95,7 +95,7 @@ return (
            <motion.a
            whileTap={{scale:0.8}}
 
-           href="#" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
+           href="https://docs.google.com/file/d/1rMM50Pg9BIQBQ8OCuN4rXV8-W9imDiGh/edit?usp=docslist_api&filetype=msword" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
            onClick={() => setIsActive(false)}
            > Download
            </motion.a>
