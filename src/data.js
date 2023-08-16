@@ -49,6 +49,13 @@ import {
     github: "https://github.com/papingothegamer/e-commercev1",
   },
 
+  {
+    id: 2,
+    name: "darkmode app",
+    techs: "React JS, CSS",
+    github: "https://github.com/papingothegamer/darkmodeapp",
+  }
+
   ];
   
   export const SocialLinks = [
