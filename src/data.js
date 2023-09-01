@@ -6,6 +6,7 @@ import {
     IoLogoWhatsapp,
   } from "react-icons/io5";
   import img1 from "./img/ecommerce.png"; 
+  import img2 from "./img/darkmodeapp.png"
   
   
   
@@ -52,6 +53,7 @@ import {
     {
       id: 2,
       name: "darkmode app",
+      imageSrc: img2,
       techs: "React JS, CSS",
       github: "https://github.com/papingothegamer/darkmodeapp",
       live: "https://darkmodeapp.vercel.app/",
