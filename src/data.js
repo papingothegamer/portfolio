@@ -41,22 +41,23 @@ import {
   
   export const Projects = [
    
-  {
-    id: 1,
-    name: "eCommerce App ",
-    imageSrc: img1,
-    techs: "React JS, Material UI, Redux",
-    github: "https://github.com/papingothegamer/e-commercev1",
-  },
-
-  {
-    id: 2,
-    name: "darkmode app",
-    techs: "React JS, CSS",
-    github: "https://github.com/papingothegamer/darkmodeapp",
-  }
-
+    {
+      id: 1,
+      name: "eCommerce App",
+      imageSrc: img1,
+      techs: "React JS, Material UI, Redux",
+      github: "https://github.com/papingothegamer/e-commercev1",
+      live: "/",
+    },
+    {
+      id: 2,
+      name: "darkmode app",
+      techs: "React JS, CSS",
+      github: "https://github.com/papingothegamer/darkmodeapp",
+      live: "https://darkmodeapp.vercel.app/",
+    },
   ];
+
   
   export const SocialLinks = [
     {
