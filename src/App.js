@@ -132,7 +132,7 @@ return (
          {/*content*/}
         <div className="w-full h-420 flex flex-col items-center justify-center"> 
           <p className="text-lg text-textBase text-center">
-            Hi there, I'm Toluwanimi Daramola. I'm currently a computer engineering student in my final year of study. I decided to delve into frontend development in September 2022, and I have been learning since then. I am currently taking a fullstack development course with Integrify, where I am learning implementation of React systems for Web 3.0 websites and web apps. When I'm not coding, you can find me playing video games (mostly FIFA and Call of Duty), reading up on history, or watching Chelsea (my favorite football team).
+            Hi there, I'm Toluwanimi Daramola. I'm currently a computer engineering student in my final year of study. I decided to delve into frontend development in September 2022, and I have been learning since then. I am a recent graduate of a fullstack development course at Integrify, where I learned implementation of React systems for Web 3.0 websites and web apps, as well as other web development & data security concepts. When I'm not coding, you can find me playing video games (mostly FIFA and Call of Duty), reading up on history, or watching Chelsea (my favorite football team).
           </p>
 
 
@@ -224,8 +224,8 @@ return (
             whileTap={{ scale: 0.8 }}
             key={n.id}
             onClick={(e) => {
-              e.preventDefault(); // Prevent default anchor behavior
-              window.open(n.link, "_blank"); // Open the link using window.open() on click
+              e.preventDefault(); 
+              window.open(n.link, "_blank"); 
             }}
             className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2x1 hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
           >
