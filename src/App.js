@@ -96,7 +96,7 @@ return (
            <motion.a
            whileTap={{scale:0.8}}
 
-           href="https://drive.google.com/file/d/1niv9F1D4oN0LQKecwT6VQrkC7l8EhAZ0/view" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
+           href="https://drive.google.com/file/d/1niv9F1D4oN0LQKecwT6VQrkC7l8EhAZ0/view?usp=sharing" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
            onClick={() => setIsActive(false)}
            > Download
            </motion.a>
