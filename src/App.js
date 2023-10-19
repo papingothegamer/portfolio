@@ -132,12 +132,12 @@ return (
          {/*content*/}
         <div className="w-full h-420 flex flex-col items-center justify-center"> 
           <p className="text-lg text-textBase text-center">
-            Hi there, I'm Toluwanimi Daramola. I'm currently a computer engineering student in my final year of study. I decided to delve into frontend development in September 2022, and I have been learning since then. I am a recent graduate of a fullstack development course at Integrify, where I learned implementation of React systems for Web 3.0 websites and web apps, as well as other web development & data security concepts. When I'm not coding, you can find me playing video games (mostly FIFA and Call of Duty), reading up on history, or watching Chelsea (my favorite football team).
+            Hi there, I'm Toluwanimi Daramola. I'm currently a computer engineering student in my final year of study. I decided to delve into frontend development in September 2022, and I have been learning since then. I am a recent graduate of a fullstack development course at Integrify, where I learned implementation of React systems for Web 3.0 websites and web apps, as well as other web development & data security concepts. When I'm not coding, you can find me playing video games (mostly FIFA and Call of Duty), reading up on history, or watching Arsenal (my *new* favorite football team).
           </p>
 
 
           <motion.a
-  href="https://docs.google.com/file/d/1rMM50Pg9BIQBQ8OCuN4rXV8-W9imDiGh/edit?usp=docslist_api&filetype=msword" 
+  href="https://drive.google.com/file/d/1niv9F1D4oN0LQKecwT6VQrkC7l8EhAZ0/view?usp=drivesdk" 
   whileTap={{ scale: 0.8 }}
   class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-400 to-gray-600 group-hover:from-gray-400 group-hover:to-white-600 hover:text-white dark:text-white focus:ring-4 focus:ring-gray-200 dark:focus:ring-grey-800 hover:shadow-lg hover:shadow-stone-500/50 hover:dark:shadow-lg hover:dark:shadow-black-800/80"
 >
