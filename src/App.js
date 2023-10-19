@@ -96,7 +96,7 @@ return (
            <motion.a
            whileTap={{scale:0.8}}
 
-           href="https://drive.google.com/file/d/1niv9F1D4oN0LQKecwT6VQrkC7l8EhAZ0/view?usp=share_link" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
+           href="https://drive.google.com/file/d/1DZDaxeVvSwIvIwKMdUAdRggM66E0XdSC/view?usp=sharing" className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover: border-gray-100 duration-100 ease-in-out "
            onClick={() => setIsActive(false)}
            > Download
            </motion.a>
@@ -137,7 +137,7 @@ return (
 
 
           <motion.a
-  href="https://drive.google.com/file/d/1niv9F1D4oN0LQKecwT6VQrkC7l8EhAZ0/view?usp=drivesdk" 
+  href="https://drive.google.com/file/d/1DZDaxeVvSwIvIwKMdUAdRggM66E0XdSC/view?usp=sharing" 
   whileTap={{ scale: 0.8 }}
   class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-400 to-gray-600 group-hover:from-gray-400 group-hover:to-white-600 hover:text-white dark:text-white focus:ring-4 focus:ring-gray-200 dark:focus:ring-grey-800 hover:shadow-lg hover:shadow-stone-500/50 hover:dark:shadow-lg hover:dark:shadow-black-800/80"
 >
