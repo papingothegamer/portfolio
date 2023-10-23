@@ -5,9 +5,9 @@ import {
     IoLogoLinkedin,
     IoLogoWhatsapp,
   } from "react-icons/io5";
-  import img1 from "./img/ecommerce.png"; 
-  import img2 from "./img/darkmodeapp.png";
-  import img3 from "./img/gsap-test.png";
+  
+  import img1 from "./img/darkmodeapp.png";
+
   
   
   
@@ -42,30 +42,13 @@ import {
 ];
   
   export const Projects = [
-   
     {
       id: 1,
-      name: "eCommerce App",
-      imageSrc: img1,
-      techs: "React JS, Material UI, Redux",
-      github: "https://github.com/papingothegamer/e-commercev1",
-      live: "/",
-    },
-    {
-      id: 2,
       name: "darkmode app",
-      imageSrc: img2,
+      imageSrc: img1,
       techs: "React JS, CSS",
       github: "https://github.com/papingothegamer/darkmodeapp",
       live: "https://darkmodeapp.vercel.app/",
-    },
-    {
-      id: 3,
-      name: "gsap-test",
-      imageSrc: img3,
-      techs: "HTML, CSS, Javascript",
-      github: "https://github.com/papingothegamer/gsap-1",
-      live: "https://gsap-1-gray.vercel.app/",
     },
   ];
 
