@@ -7,6 +7,7 @@ import {
   } from "react-icons/io5";
   
   import img1 from "./img/darkmodeapp.png";
+  import img2 from "./img/airpods-mockup.png";
 
   
   
@@ -49,6 +50,14 @@ import {
       techs: "React JS, CSS",
       github: "https://github.com/papingothegamer/darkmodeapp",
       live: "https://darkmodeapp.vercel.app/",
+    },
+    {
+      id: 2,
+      name: "Airpods Max mock display page",
+      imageSrc: img2,
+      techs: "NextJS, Typescript",
+      github: "https://github.com/papingothegamer/airpods-max-sample",
+      live: "https://airpods-max-sample.vercel.app/",
     },
   ];
 
