@@ -8,6 +8,7 @@ import {
   
   import img1 from "./img/darkmodeapp.png";
   import img2 from "./img/airpods-mockup.png";
+  import img3 from "./img/client-portfolio.png";
 
   
   
@@ -58,6 +59,14 @@ import {
       techs: "NextJS, Typescript",
       github: "https://github.com/papingothegamer/airpods-max-sample",
       live: "https://airpods-max-sample.vercel.app/",
+    },
+    {
+      id: 3,
+      name: "Client Portfolio",
+      imageSrc: img3,
+      techs: "HTML, CSS, Javascript",
+      github: "https://github.com/papingothegamer/mhiyah.com",
+      live: "https://projectmhiyah.vercel.app/",
     },
   ];
 
